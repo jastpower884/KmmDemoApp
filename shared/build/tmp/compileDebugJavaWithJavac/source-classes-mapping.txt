@@ -1,0 +1,2 @@
+com/jastzeonic/kmmdemoapp/shared/BuildConfig.java
+ com.jastzeonic.kmmdemoapp.shared.BuildConfig

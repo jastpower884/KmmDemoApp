@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/jast/kmm_project/KmmDemoApp/androidApp/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/jast/kmm_project/KmmDemoApp/androidApp/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/jast/kmm_project/KmmDemoApp/androidApp/build/intermediates/res/merged/debug/layout_item_launch.xml.flat",
+        "source": "/Users/jast/kmm_project/KmmDemoApp/androidApp/src/main/res/layout/item_launch.xml"
+    }
+]

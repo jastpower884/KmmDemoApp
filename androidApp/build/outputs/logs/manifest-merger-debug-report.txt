@@ -1,0 +1,193 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/jast/kmm_project/KmmDemoApp/androidApp/src/main/AndroidManifest.xml:2:1-15:12
+INJECTED from /Users/jast/kmm_project/KmmDemoApp/androidApp/src/main/AndroidManifest.xml:2:1-15:12
+INJECTED from /Users/jast/kmm_project/KmmDemoApp/androidApp/src/main/AndroidManifest.xml:2:1-15:12
+INJECTED from /Users/jast/kmm_project/KmmDemoApp/androidApp/src/main/AndroidManifest.xml:2:1-15:12
+MERGED from [:shared] /Users/jast/kmm_project/KmmDemoApp/shared/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /Users/jast/.gradle/caches/transforms-2/files-2.1/f00153a9adef7464b4a46c3f3f5e6afe/lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/jast/.gradle/caches/transforms-2/files-2.1/d35ebedce25deba4f525837729d0b0c7/core-ktx-1.3.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.squareup.sqldelight:android-driver:1.4.4] /Users/jast/.gradle/caches/transforms-2/files-2.1/652c0784db075bfdb348d92791debd03/android-driver-1.4.4/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.material:material:1.3.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/2d80e5ea49c5a31c6f843f997d8bc16d/material-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/jast/.gradle/caches/transforms-2/files-2.1/b5f1efe9105cee8be3f68f0b0a95bacd/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/34d8f376a9507b3b71e7973329d22dac/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/eba9163770fc0fcde495f3075f3164be/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/35473fa828c5659a39c2bc1d2dfda95f/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/dc0c2788d56c2f6ce5fcc1fbf56bc8da/swiperefreshlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/108db7ebe7b9ff488f81699a779e9c44/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/9a11cff341fe5ff44cf68de18ea2b449/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/fbe0bdbaff314ad48bb31f56aca43acc/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/4448b6f1e8dc7f9f39e68c6afb7226c5/appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/952444c4fbcc64359a130df6cc1e7428/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/d291b88ecc638b8264958cd4a951eeab/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/1a95107327e37120464366281a6a2bb5/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/a1a67afa8291fc21430904e32833700c/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/6343559be2d24c98d41b24b5bc2bb0ec/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/7e0da5ca0867ba68079e669260563e5f/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/f4da18568309216ecabebf2d3af973fb/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/f5afd5110c353e612ac466a510d28909/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/b376f9bbe9ed062dbfd8c7c749f2af4a/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/8136c9d536373ce557361023e31153a6/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/9d5c8d142e51318e30b439153ac4d73c/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.2] /Users/jast/.gradle/caches/transforms-2/files-2.1/b0b47c855c3cc9c573ee3fe1850f2c85/core-1.3.2/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/16cc9ff034b702173994d6ae8153cf62/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/jast/.gradle/caches/transforms-2/files-2.1/26fb00d3b7647d683d19219201950820/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/625c99fd61697e4ae98dabc4fe9a01e8/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/acdd9bbc4c350ddcb3bedbfefe3d9f4d/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/79172927506bc914db574c6f1496cbf5/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/2b5354ef63290ac7b2ffd0e2ec9ff160/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/49617bb2ef33afd8a9674b9346af1e28/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/20fc7ee4e27ccc1c2cb7e246220cbbe7/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/e5674bbf4484ef2d1fc34e575a57eb11/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/4c3325765143bdeb60fb450229596a2a/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/4507ba613221e8a72198bc7c36cde177/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/59dddc9264845136c618556ae4fae428/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/1cddb4aba876ebd283c0e74b4d057443/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/6614074a9611513c97d52005da14a1f2/annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/jast/kmm_project/KmmDemoApp/androidApp/src/main/AndroidManifest.xml:2:1-15:12
+INJECTED from /Users/jast/kmm_project/KmmDemoApp/androidApp/src/main/AndroidManifest.xml:2:1-15:12
+INJECTED from /Users/jast/kmm_project/KmmDemoApp/androidApp/src/main/AndroidManifest.xml:2:1-15:12
+	package
+		ADDED from /Users/jast/kmm_project/KmmDemoApp/androidApp/src/main/AndroidManifest.xml:2:70-116
+		INJECTED from /Users/jast/kmm_project/KmmDemoApp/androidApp/src/main/AndroidManifest.xml
+		INJECTED from /Users/jast/kmm_project/KmmDemoApp/androidApp/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/jast/kmm_project/KmmDemoApp/androidApp/src/main/AndroidManifest.xml
+		ADDED from /Users/jast/kmm_project/KmmDemoApp/androidApp/src/main/AndroidManifest.xml:2:1-15:12
+		INJECTED from /Users/jast/kmm_project/KmmDemoApp/androidApp/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/jast/kmm_project/KmmDemoApp/androidApp/src/main/AndroidManifest.xml
+		ADDED from /Users/jast/kmm_project/KmmDemoApp/androidApp/src/main/AndroidManifest.xml:2:1-15:12
+		INJECTED from /Users/jast/kmm_project/KmmDemoApp/androidApp/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/jast/kmm_project/KmmDemoApp/androidApp/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/jast/kmm_project/KmmDemoApp/androidApp/src/main/AndroidManifest.xml:3:5-66
+	android:name
+		ADDED from /Users/jast/kmm_project/KmmDemoApp/androidApp/src/main/AndroidManifest.xml:3:22-64
+application
+ADDED from /Users/jast/kmm_project/KmmDemoApp/androidApp/src/main/AndroidManifest.xml:4:5-14:19
+MERGED from [com.google.android.material:material:1.3.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/2d80e5ea49c5a31c6f843f997d8bc16d/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/2d80e5ea49c5a31c6f843f997d8bc16d/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/jast/.gradle/caches/transforms-2/files-2.1/b5f1efe9105cee8be3f68f0b0a95bacd/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/jast/.gradle/caches/transforms-2/files-2.1/b5f1efe9105cee8be3f68f0b0a95bacd/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.3.2] /Users/jast/.gradle/caches/transforms-2/files-2.1/b0b47c855c3cc9c573ee3fe1850f2c85/core-1.3.2/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.2] /Users/jast/.gradle/caches/transforms-2/files-2.1/b0b47c855c3cc9c573ee3fe1850f2c85/core-1.3.2/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/79172927506bc914db574c6f1496cbf5/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/79172927506bc914db574c6f1496cbf5/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.2] /Users/jast/.gradle/caches/transforms-2/files-2.1/b0b47c855c3cc9c573ee3fe1850f2c85/core-1.3.2/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/jast/kmm_project/KmmDemoApp/androidApp/src/main/AndroidManifest.xml:6:13-39
+	android:allowBackup
+		ADDED from /Users/jast/kmm_project/KmmDemoApp/androidApp/src/main/AndroidManifest.xml:5:13-40
+	android:theme
+		ADDED from /Users/jast/kmm_project/KmmDemoApp/androidApp/src/main/AndroidManifest.xml:7:13-44
+activity#com.jastzeonic.kmmdemoapp.androidApp.MainActivity
+ADDED from /Users/jast/kmm_project/KmmDemoApp/androidApp/src/main/AndroidManifest.xml:8:9-13:20
+	android:name
+		ADDED from /Users/jast/kmm_project/KmmDemoApp/androidApp/src/main/AndroidManifest.xml:8:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/jast/kmm_project/KmmDemoApp/androidApp/src/main/AndroidManifest.xml:9:13-12:29
+action#android.intent.action.MAIN
+ADDED from /Users/jast/kmm_project/KmmDemoApp/androidApp/src/main/AndroidManifest.xml:10:17-68
+	android:name
+		ADDED from /Users/jast/kmm_project/KmmDemoApp/androidApp/src/main/AndroidManifest.xml:10:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/jast/kmm_project/KmmDemoApp/androidApp/src/main/AndroidManifest.xml:11:17-76
+	android:name
+		ADDED from /Users/jast/kmm_project/KmmDemoApp/androidApp/src/main/AndroidManifest.xml:11:27-74
+uses-sdk
+INJECTED from /Users/jast/kmm_project/KmmDemoApp/androidApp/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/jast/kmm_project/KmmDemoApp/androidApp/src/main/AndroidManifest.xml
+INJECTED from /Users/jast/kmm_project/KmmDemoApp/androidApp/src/main/AndroidManifest.xml
+MERGED from [:shared] /Users/jast/kmm_project/KmmDemoApp/shared/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:shared] /Users/jast/kmm_project/KmmDemoApp/shared/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /Users/jast/.gradle/caches/transforms-2/files-2.1/f00153a9adef7464b4a46c3f3f5e6afe/lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /Users/jast/.gradle/caches/transforms-2/files-2.1/f00153a9adef7464b4a46c3f3f5e6afe/lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/jast/.gradle/caches/transforms-2/files-2.1/d35ebedce25deba4f525837729d0b0c7/core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/jast/.gradle/caches/transforms-2/files-2.1/d35ebedce25deba4f525837729d0b0c7/core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.squareup.sqldelight:android-driver:1.4.4] /Users/jast/.gradle/caches/transforms-2/files-2.1/652c0784db075bfdb348d92791debd03/android-driver-1.4.4/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.sqldelight:android-driver:1.4.4] /Users/jast/.gradle/caches/transforms-2/files-2.1/652c0784db075bfdb348d92791debd03/android-driver-1.4.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.3.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/2d80e5ea49c5a31c6f843f997d8bc16d/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/2d80e5ea49c5a31c6f843f997d8bc16d/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/jast/.gradle/caches/transforms-2/files-2.1/b5f1efe9105cee8be3f68f0b0a95bacd/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/jast/.gradle/caches/transforms-2/files-2.1/b5f1efe9105cee8be3f68f0b0a95bacd/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/34d8f376a9507b3b71e7973329d22dac/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/34d8f376a9507b3b71e7973329d22dac/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/eba9163770fc0fcde495f3075f3164be/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/eba9163770fc0fcde495f3075f3164be/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/35473fa828c5659a39c2bc1d2dfda95f/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/35473fa828c5659a39c2bc1d2dfda95f/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/dc0c2788d56c2f6ce5fcc1fbf56bc8da/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/dc0c2788d56c2f6ce5fcc1fbf56bc8da/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/108db7ebe7b9ff488f81699a779e9c44/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/108db7ebe7b9ff488f81699a779e9c44/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/9a11cff341fe5ff44cf68de18ea2b449/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/9a11cff341fe5ff44cf68de18ea2b449/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/fbe0bdbaff314ad48bb31f56aca43acc/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/fbe0bdbaff314ad48bb31f56aca43acc/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/4448b6f1e8dc7f9f39e68c6afb7226c5/appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/4448b6f1e8dc7f9f39e68c6afb7226c5/appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/952444c4fbcc64359a130df6cc1e7428/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/952444c4fbcc64359a130df6cc1e7428/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/d291b88ecc638b8264958cd4a951eeab/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/d291b88ecc638b8264958cd4a951eeab/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/1a95107327e37120464366281a6a2bb5/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/1a95107327e37120464366281a6a2bb5/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/a1a67afa8291fc21430904e32833700c/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/a1a67afa8291fc21430904e32833700c/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/6343559be2d24c98d41b24b5bc2bb0ec/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/6343559be2d24c98d41b24b5bc2bb0ec/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/7e0da5ca0867ba68079e669260563e5f/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/7e0da5ca0867ba68079e669260563e5f/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/f4da18568309216ecabebf2d3af973fb/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/f4da18568309216ecabebf2d3af973fb/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/f5afd5110c353e612ac466a510d28909/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/f5afd5110c353e612ac466a510d28909/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/b376f9bbe9ed062dbfd8c7c749f2af4a/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/b376f9bbe9ed062dbfd8c7c749f2af4a/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/8136c9d536373ce557361023e31153a6/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/8136c9d536373ce557361023e31153a6/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/9d5c8d142e51318e30b439153ac4d73c/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/9d5c8d142e51318e30b439153ac4d73c/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] /Users/jast/.gradle/caches/transforms-2/files-2.1/b0b47c855c3cc9c573ee3fe1850f2c85/core-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] /Users/jast/.gradle/caches/transforms-2/files-2.1/b0b47c855c3cc9c573ee3fe1850f2c85/core-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/16cc9ff034b702173994d6ae8153cf62/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/16cc9ff034b702173994d6ae8153cf62/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/jast/.gradle/caches/transforms-2/files-2.1/26fb00d3b7647d683d19219201950820/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/jast/.gradle/caches/transforms-2/files-2.1/26fb00d3b7647d683d19219201950820/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/625c99fd61697e4ae98dabc4fe9a01e8/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/625c99fd61697e4ae98dabc4fe9a01e8/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/acdd9bbc4c350ddcb3bedbfefe3d9f4d/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/acdd9bbc4c350ddcb3bedbfefe3d9f4d/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/79172927506bc914db574c6f1496cbf5/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/79172927506bc914db574c6f1496cbf5/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/2b5354ef63290ac7b2ffd0e2ec9ff160/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/2b5354ef63290ac7b2ffd0e2ec9ff160/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/49617bb2ef33afd8a9674b9346af1e28/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/49617bb2ef33afd8a9674b9346af1e28/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/20fc7ee4e27ccc1c2cb7e246220cbbe7/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/20fc7ee4e27ccc1c2cb7e246220cbbe7/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/e5674bbf4484ef2d1fc34e575a57eb11/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/e5674bbf4484ef2d1fc34e575a57eb11/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/4c3325765143bdeb60fb450229596a2a/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/4c3325765143bdeb60fb450229596a2a/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/4507ba613221e8a72198bc7c36cde177/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/4507ba613221e8a72198bc7c36cde177/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/59dddc9264845136c618556ae4fae428/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/59dddc9264845136c618556ae4fae428/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/1cddb4aba876ebd283c0e74b4d057443/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/1cddb4aba876ebd283c0e74b4d057443/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/6614074a9611513c97d52005da14a1f2/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/jast/.gradle/caches/transforms-2/files-2.1/6614074a9611513c97d52005da14a1f2/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/jast/kmm_project/KmmDemoApp/androidApp/src/main/AndroidManifest.xml
+INJECTED from /Users/jast/kmm_project/KmmDemoApp/androidApp/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/jast/kmm_project/KmmDemoApp/androidApp/src/main/AndroidManifest.xml
+		ADDED from /Users/jast/kmm_project/KmmDemoApp/androidApp/src/main/AndroidManifest.xml
+		INJECTED from /Users/jast/kmm_project/KmmDemoApp/androidApp/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/jast/kmm_project/KmmDemoApp/androidApp/src/main/AndroidManifest.xml
+		ADDED from /Users/jast/kmm_project/KmmDemoApp/androidApp/src/main/AndroidManifest.xml
+		INJECTED from /Users/jast/kmm_project/KmmDemoApp/androidApp/src/main/AndroidManifest.xml

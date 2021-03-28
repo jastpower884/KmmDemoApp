@@ -1,2 +1,0 @@
-com/jastzeonic/kmmdemoapp/androidApp/BuildConfig.java
- com.jastzeonic.kmmdemoapp.androidApp.BuildConfig

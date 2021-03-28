@@ -42,17 +42,17 @@ extension ContentView {
     }
 
     class ViewModel: ObservableObject {
-        let sdk: SpaceXApi
+        let sdk: SpaceXSDK
         @Published var launches = LoadableLaunches.loading
 
-        init(sdk: SpaceXApi) {
+        init(sdk: SpaceXSDK) {
             self.sdk = sdk
             self.loadLaunches(forceReload: false)
         }
 
         func loadLaunches(forceReload: Bool) {
             self.launches = .loading
-            sdk.getAllLaunches(completionHandler: { launches, error in
+            sdk.getLaunches(forceReload: forceReload, completionHandler: { launches, error in
                 if let launches = launches {
                     self.launches = .result(launches)
                 } else {

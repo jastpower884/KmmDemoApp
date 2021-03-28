@@ -16,6 +16,12 @@ kotlin {
             }
         }
     }
+    val onPhone = System.getenv("SDK_NAME")?.startsWith("iphoneos") ?: false
+    if (onPhone) {
+        iosArm64("ios")
+    } else {
+        iosX64("ios")
+    }
 
     val coroutinesVersion = "1.3.9-native-mt"
     val serializationVersion = "1.0.0-RC"
@@ -70,6 +76,12 @@ android {
     defaultConfig {
         minSdkVersion(24)
         targetSdkVersion(30)
+    }
+}
+
+sqldelight {
+    database("AppDatabase") {
+        packageName = "com.jastzeonic.kmmdemoapp.shared.cache"
     }
 }
 

@@ -11,17 +11,17 @@ import androidx.core.content.ContextCompat
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.RecyclerView
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
-import com.jastzeonic.kmmdemoapp.shared.RocketLaunch
-import com.jastzeonic.kmmdemoapp.shared.SpaceXApi
+import com.jastzeonic.kmmdemoapp.shared.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
-private val spaceXApi = SpaceXApi()
 
 class MainActivity : AppCompatActivity() {
     private lateinit var launchesRecyclerView: RecyclerView
     private lateinit var swipeRefreshLayout: SwipeRefreshLayout
     private lateinit var errorMessage: TextView
+
+    private val sdk = SpaceXSDK(DatabaseDriverFactory(this))
 
     private val launchesRvAdapter = LaunchesRvAdapter(listOf())
 
@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
         lifecycleScope.launch(Dispatchers.Main) {
             swipeRefreshLayout.isRefreshing = true
             runCatching {
-                spaceXApi.getAllLaunches()
+                sdk.getLaunches(false)
             }.onSuccess {
                 launchesRvAdapter.launches = it
                 launchesRvAdapter.notifyDataSetChanged()
@@ -51,7 +51,6 @@ class MainActivity : AppCompatActivity() {
                 errorMessage.text = "$it"
             }
             swipeRefreshLayout.isRefreshing = false
-
         }
 
     }

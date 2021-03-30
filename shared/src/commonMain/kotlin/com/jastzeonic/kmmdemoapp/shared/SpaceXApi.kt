@@ -19,7 +19,7 @@ class SpaceXApi {
         }
     }
 
-    suspend fun getAllLaunches(): List<RocketLaunch>{
+    @Throws(Exception::class) suspend fun getAllLaunches(): List<RocketLaunch>{
         return httpClient.get(LAUNCHES_ENDPOINT)
     }
 }

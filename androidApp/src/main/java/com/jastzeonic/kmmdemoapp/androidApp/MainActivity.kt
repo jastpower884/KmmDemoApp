@@ -6,10 +6,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.FrameLayout
-import com.jastzeonic.kmmdemoapp.shared.Greeting
 import android.widget.TextView
 import androidx.core.content.ContextCompat
-import androidx.core.view.isVisible
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.RecyclerView
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
@@ -17,18 +15,13 @@ import com.jastzeonic.kmmdemoapp.shared.RocketLaunch
 import com.jastzeonic.kmmdemoapp.shared.SpaceXApi
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import kotlinx.coroutines.withContext
-
-fun greet(): String {
-    return Greeting().greeting()
-}
 
 private val spaceXApi = SpaceXApi()
 
 class MainActivity : AppCompatActivity() {
     private lateinit var launchesRecyclerView: RecyclerView
-    private lateinit var progressBarView: FrameLayout
     private lateinit var swipeRefreshLayout: SwipeRefreshLayout
+    private lateinit var errorMessage: TextView
 
     private val launchesRvAdapter = LaunchesRvAdapter(listOf())
 
@@ -39,8 +32,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         launchesRecyclerView = findViewById(R.id.launchesListRv)
-        progressBarView = findViewById(R.id.progressBar)
         swipeRefreshLayout = findViewById(R.id.swipeContainer)
+        errorMessage = findViewById(R.id.errorMessage)
         launchesRecyclerView.adapter = launchesRvAdapter
 
         displayLaunches()
@@ -48,14 +41,19 @@ class MainActivity : AppCompatActivity() {
 
     private fun displayLaunches() {
         lifecycleScope.launch(Dispatchers.Main) {
-            progressBarView.visibility = View.VISIBLE
-            launchesRvAdapter.launches = withContext(Dispatchers.IO) {
+            swipeRefreshLayout.isRefreshing = true
+            runCatching {
                 spaceXApi.getAllLaunches()
+            }.onSuccess {
+                launchesRvAdapter.launches = it
+                launchesRvAdapter.notifyDataSetChanged()
+            }.onFailure {
+                errorMessage.text = "$it"
             }
-            launchesRvAdapter.notifyDataSetChanged()
-            progressBarView.visibility = View.GONE
+            swipeRefreshLayout.isRefreshing = false
 
         }
+
     }
 }
 

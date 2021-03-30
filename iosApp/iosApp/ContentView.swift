@@ -1,9 +1,6 @@
 import SwiftUI
 import shared
 
-func greet() -> String {
-    return Greeting().greeting()
-}
 
 struct ContentView: View {
     @ObservedObject private(set) var viewModel: ViewModel
